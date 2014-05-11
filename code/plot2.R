@@ -8,7 +8,7 @@ source.and.set("load_and_prepare_data.R")
 
 # Plot 2
 
-png(file="../output/plot2.png", width=480,height=480)
+png(file="../output/plot2.png", width=480,height=480, bg = "transparent")
 
 plot(
   df$Timestamp,
